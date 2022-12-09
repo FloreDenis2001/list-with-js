@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+}
+
+header{
+    color: aliceblue;
+    background-color: rgb(219, 34, 34);
+    padding: 1px;
+    text-align: center;
+}
+
+button{
+    margin-left: 50px;
+    width: 100px;
+    height: 30px;
+    padding:7px;
+    text-align: center;
+    color: white;
+    background-color: rgb(219, 34, 34);
+    border: 2px white solid;
+}
+
+.remove-item,.change-list{
+   width: 200px;
+}
+
+main{
+    padding: 1px;
+    background-color: rgb(219, 34, 34);
+}
+
+.list{
+    padding-bottom: 50px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    color:white;
+}
+
+input{
+    width:200px;
+    height: 30px;
+}
+
+.hide{
+    display: none;
+    position: relative;
+}
+
+.elementsOfList{
+    display: flex;
+    flex-direction: column;
+}
+
+.up-btn,.down-btn,.remove-btn{
+    background-color: rgb(45, 167, 45);
+    width: 50px;
+    height: 30px;
+    font-size: 16px;
+    margin-left:5px;
+    padding: 0px;
+}
+
+.remove-btn{
+    background-color: grey;
+    width: 100px;
+}
+
+.down-btn{
+    background-color: rgb(41, 124, 192);
+    width: 70px;
+}
+
+.element{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 20px;
+  
+}
+
+.button-container{
+   margin-right: 50px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+
+}
